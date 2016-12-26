@@ -288,10 +288,10 @@ package body thrift.protocol.compat is
       (protocol : in out CompatType;
        value    : in out I08) return SizeType
    is
-	   s : string(1..1);
+      s : String (1 .. 1);
    begin
-	   s := protocol.transport.read_all(1);
-	  value := character'pos(s(1));
+      s     := protocol.transport.read_all (1);
+      value := Character'Pos (s (1));
       return 1;
    end read_byte;
 

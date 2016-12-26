@@ -1,4 +1,4 @@
-﻿package thrift.transport is
+package thrift.transport is
    type TransportType is interface;
    function read
       (transport : in out TransportType;

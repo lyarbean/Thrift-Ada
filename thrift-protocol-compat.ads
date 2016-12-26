@@ -10,7 +10,7 @@ package thrift.protocol.compat is
    type_shift_amount : I32 := 5;
 
    type CompatType is new ProtocolType with record
-      transport : access thrift.transport.TransportType'class;
+      transport : access thrift.transport.TransportType'Class;
    end record;
 
    -- Write --
