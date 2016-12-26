@@ -1,0 +1,1 @@
+gnatpp.exe -D TypeNamesDict  -W8 -aU -cl3 -i3 -kL -M80 -neM -ntM -N -pL -nL  --separate-loop-then --par_threshold=3 --call_threshold=3
